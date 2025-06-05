@@ -1,20 +1,88 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba Corta 3</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
 
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="config.css">
-    <link rel="stylesheet" href="img">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="config.css">
+  <link rel="stylesheet" href="img/">
 
 </head>
 <body>
-    <header class="header">
-        <nav>
-            <div class="Logo"><img src="img/logo.png" alt=""></div>
-        </nav>
-    </header>
+    <header>
+        <div class="container">
+          <div class="logo"><img src="img/logo.png" alt=""></div>
+          <nav class="nav-menu">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Experience</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    <section class="section">
+      <section class="hero">
+        <img src="img/avatar.png" alt="Avatar" class="avatar">
+        <h1>I do code and<br><span>make content <span class="highlight">about it!</span></span></h1>
+        <h3 class="Texto1">I am a seasoned full-stack software engineer with over<br>8 years of professional experience, specializing in backend development.<br>My expertise lies in crafting robust and scalable SaaS-based<br>architectures on the Amazon AWS platform.</h3>
+        <div class="buttons">
+          <button class="primary">Get In Touch</button>
+          <button class="secondary">Download CV</button>
+        </div>
+    
+        <div class="Experience">
+          <img src="img/EXPERIENCE WITH.png" alt="">
+        </div>
+    
+        <div class="experience-with">
+          <img src="img/Logos.png" alt="">
+        </div>
+        <section id="projects">
+          <div class="Projects"><img src="img/Projects Title.png" alt=""></div>
+          <div class="projects">
+            <div class="card">
+              <img src="img/project-thumbnail-1.png" alt="Power of HTML">
+              <p>HTML TUTORIAL</p>
+            </div>
+            <div class="card">
+              <img src="img/project-thumbnail-2.png" alt="CSS Magic">
+              <p>CSS TUTORIAL</p>
+            </div>
+          </div>
+        </section>
+      
+        <section id="experience">
+          <h2 class="section-title">EXPERIENCE</h2>
+          <div class="job">
+            <h3>Lead Software Engineer at Google</h3>
+            <p class="duration">Oct 2021 - Present</p>
+            <p>Leading a team of developers focused on building scalable web applications.</p>
+          </div>
+          <div class="job">
+            <h3>Junior Software Engineer at Apple</h3>
+            <p class="duration">Jan 2019 - Oct 2021</p>
+            <p>Worked on UI/UX development for several iOS applications.</p>
+          </div>
+          <div class="job">
+            <h3>Software Engineer at Meta</h3>
+            <p class="duration">Jan 2017 - Jan 2019</p>
+            <p>Created and maintained internal tools to improve productivity.</p>
+          </div>
+        </section>
+      </section>
+    </section>
+
+  <footer id="contact">
+    <p>© 2025 John Doe. All rights reserved.</p>
+    <p>Email: contact@johndoe.dev</p>
+    <div class="socials">
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
 </body>
 </html>

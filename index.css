@@ -1,9 +1,153 @@
-.header {
-    background-color: rgba(34, 34, 34, 1);
-}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+  }
 
-.Logo {
-    margin: 0 20rem;
-}
-.nombres {
-}
+  header {
+    background-color: rgba(34, 34, 34, 1);
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-family: 'Pacifico', cursive;
+    color: white;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-menu a:hover {
+    color: #f39c12;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  
+  .avatar {
+    width: 251px;
+    height: 223px;
+    border-radius: 50%;
+  }
+  
+  .hero h1 {
+    font-size: 5rem;
+    margin: 1rem 0;
+  }
+  
+  .Texto1 {
+    color: rgba(197, 197, 197, 1);
+    font-size: 1.5rem;
+    font-weight: 1;
+  }
+
+  .highlight {
+      font-size: 5rem;
+      font-weight: bolder; 
+    
+      background: linear-gradient(90deg, #ff7b00, #ff00ff, #00d4ff, #ff7b00);
+      background-size: 300%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  
+  .buttons button {
+    margin: 1rem 0.5rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 1.9rem;
+    width: 195px;
+    height: 64px;
+  }
+  
+  .primary {
+    background-color: white;
+    color: black;
+    width: 136rem;
+    height: 32px;
+
+  }
+  
+  .secondary {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .Experience {
+    margin-top: 4rem;
+  }
+  
+  .experience-with {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  
+  .projects {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .card {
+    background: #1a1a1a;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .job {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #333;
+  }
+  
+  .duration {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(25, 25, 25, 1);
+    color: #aaa;
+  }
+  
+  .socials a {
+    color: #aaa;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+  
